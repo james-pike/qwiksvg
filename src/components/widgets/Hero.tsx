@@ -6,12 +6,28 @@ const coverImage =
 
 export default component$(() => {
   return (
-    <section class="relative md:-mt-[76px] not-prose">
-      <div class="absolute inset-0 pointer-events-none" aria-hidden="true"></div>
-      <div class="relative max-w-7xl mx-auto px-4 sm:px-6">
-        <div class="pt-0 md:pt-[76px] pointer-events-none"></div>
-        <div class="py-12 md:py-20 lg:py-0 lg:flex lg:items-center lg:h-screen lg:gap-8">
-          <div class="basis-1/2 text-center lg:text-left pb-10 md:pb-16 mx-auto">
+    <section class="relative h-[85vh] w-full not-prose overflow-hidden">
+      {/* Lottie Background */}
+      <div class="absolute inset-0 w-full h-full z-0">
+        <script src="https://unpkg.com/@dotlottie/player-component@2.7.12/dist/dotlottie-player.mjs" type="module"></script>
+        <div class="w-full h-full">
+          <dotlottie-player
+            src="https://lottie.host/31d07d4e-e255-4bfe-b875-3c165b58d6b0/YKqfIcJWuT.json"
+            background="transparent"
+            speed="1"
+            direction="1"
+            playMode="normal"
+            loop
+            autoplay
+            style="width: 100%; height: 100%;"
+          ></dotlottie-player>
+        </div>
+      </div>
+
+      {/* Hero Content */}
+      <div class="relative z-10 flex items-center justify-center h-full">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6">
+          <div class="text-center lg:text-left">
             <h1 class="text-5xl md:text-6xl font-bold leading-tighter tracking-tighter mb-4 font-heading dark:text-gray-200">
               Free template for <br class="hidden lg:block" />{" "}
               <span class="hidden lg:inline">create a website using </span> <span class="text-[#039de1]">Qwik</span> +{" "}
@@ -30,34 +46,18 @@ export default component$(() => {
                 </span>
               </p>
 
-              <div class="max-w-xs sm:max-w-md m-auto flex flex-nowrap flex-col sm:flex-row sm:justify-center gap-4 lg:justify-start lg:m-0 lg:max-w-7xl">
-                <div class="flex w-full sm:w-auto">
-                  <a
-                    class="btn btn-primary sm:mb-0 w-full"
-                    href="https://github.com/onwidget/qwind"
-                    target="_blank"
-                    rel="noopener"
-                  >
-                    Get template
-                  </a>
-                </div>
-                <div class="flex w-full sm:w-auto">
-                  <button class="btn w-full bg-gray-50 dark:bg-transparent">Learn more</button>
-                </div>
+              <div class="flex justify-center gap-4 lg:justify-start">
+                <a
+                  class="btn btn-primary sm:mb-0 w-full sm:w-auto"
+                  href="https://github.com/onwidget/qwind"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  Get template
+                </a>
+                <button class="btn bg-gray-50 dark:bg-transparent w-full sm:w-auto">Learn more</button>
               </div>
             </div>
-          </div>
-          <div class="basis-1/2">
-            <Image
-              src={coverImage}
-              layout="constrained"
-              width={493}
-              height={616}
-              alt="Qwind Hero Image (Cool dog)"
-              class="mx-auto lg:mr-0 w-full drop-shadow-2xl rounded-md"
-              priority={true}
-              breakpoints={[320, 480, 640, 768, 1024]}
-            />
           </div>
         </div>
       </div>
