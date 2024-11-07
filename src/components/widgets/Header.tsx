@@ -41,7 +41,7 @@ export default component$(() => {
           <div class="flex items-center md:hidden">
           <a
                 href="https://github.com/onwidget/qwind"
-                class="btn btn-primary ml-2 py-2.5 px-2 md:px-6 font-semibold shadow-none text-sm w-auto"
+                class="btn btn-primary ml-2 py-2.5 px-3 md:px-6 font-semibold shadow-none text-sm w-auto"
               >
                 Contact
               </a>
