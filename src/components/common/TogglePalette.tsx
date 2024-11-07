@@ -1,5 +1,4 @@
 import { component$, useStore, useVisibleTask$ } from "@builder.io/qwik";
-import IconSun from "~/components/icons/IconSun"
 import IconPalette from "~/components/icons/IconPalette"
 
 interface ItemProps {
