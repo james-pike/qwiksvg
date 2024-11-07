@@ -7,16 +7,11 @@ const coverImage =
 export default component$(() => {
   return (
     <section class="relative md:-mt-[76px] not-prose">
-      {/* Full-screen Lottie background */}
       <script src="https://unpkg.com/@dotlottie/player-component@2.7.12/dist/dotlottie-player.mjs" type="module"></script><dotlottie-player src="https://lottie.host/f401db68-5f9c-45f3-9740-822266addeff/9dTNPA28ub.json" background="transparent" speed="1" style="width: 100%; height: 100%" direction="1" playMode="normal" loop autoplay></dotlottie-player>
-
       <div class="absolute inset-0 pointer-events-none" aria-hidden="true"></div>
-      
       <div class="relative max-w-7xl mx-auto px-4 sm:px-6">
-        
         <div class="pt-0 md:pt-[76px] pointer-events-none"></div>
         <div class="py-12 md:py-20 lg:py-0 lg:flex lg:items-center lg:h-screen lg:gap-8">
-          
           <div class="basis-1/2 text-center lg:text-left pb-10 md:pb-16 mx-auto">
             <h1 class="text-5xl md:text-6xl font-bold leading-tighter tracking-tighter mb-4 font-heading dark:text-gray-200">
               Free template for <br class="hidden lg:block" />{" "}
