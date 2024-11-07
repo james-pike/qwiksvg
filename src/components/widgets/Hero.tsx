@@ -9,7 +9,7 @@ export default component$(() => {
     <section class="relative md:-mt-[76px] not-prose">
       <div class="-mt-20">
       <script src="https://unpkg.com/@dotlottie/player-component@2.7.12/dist/dotlottie-player.mjs" type="module"></script><dotlottie-player src="https://lottie.host/31d07d4e-e255-4bfe-b875-3c165b58d6b0/YKqfIcJWuT.json" 
-      background="transparent" speed="2" style="width: 100%; height: 100%" direction="1" 
+      background="transparent" speed="3" style="width: 100%; height: 100%" direction="1" 
       playMode="normal" loop autoplay></dotlottie-player>
       </div>
       {/* <script src="https://unpkg.com/@dotlottie/player-component@2.7.12/dist/dotlottie-player.mjs" type="module"></script><dotlottie-player src="https://lottie.host/f401db68-5f9c-45f3-9740-822266addeff/9dTNPA28ub.json" background="transparent" speed="1" style="width: 100%; height: 100%" direction="1" playMode="normal" loop autoplay></dotlottie-player> */}
