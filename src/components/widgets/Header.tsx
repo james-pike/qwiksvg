@@ -5,6 +5,7 @@ import Logo from "~/components/common/Logo";
 import ToggleTheme from "~/components/common/ToggleTheme";
 import ToggleMenu from "~/components/common/ToggleMenu";
 import IconChevronDown from "../icons/IconChevronDown";
+import TogglePalette from "../common/TogglePalette";
 
 export default component$(() => {
   const store = useStore({
@@ -39,13 +40,8 @@ export default component$(() => {
             <Logo />
           </a>
           <div class="flex items-center md:hidden">
-          <a
-                href="https://github.com/onwidget/qwind"
-                class="btn btn-primary ml-2 py-2.5 px-3 md:px-6 font-semibold shadow-none text-sm w-auto"
-              >
-                Contact
-              </a>
-            {/* <ToggleTheme iconClass="w-6 h-6 md:w-5 md:h-5 md:inline-block" /> */}
+            <TogglePalette iconClass="w-6 h-6 md:w-5 md:h-5 md:inline-block" />
+            <ToggleTheme iconClass="w-6 h-6 md:w-5 md:h-5 md:inline-block" />
             <ToggleMenu />
           </div>
         </div>
