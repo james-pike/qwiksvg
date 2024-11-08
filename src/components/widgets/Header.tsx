@@ -31,7 +31,7 @@ export default component$(() => {
 >
   <div class="absolute inset-0 md:rounded-none rounded-lg overflow-hidden"></div>
 
-  <div class="relative text-default py-2 px-3 md:px-6 w-full md:flex md:justify-between max-w-7xl mx-auto">
+  <div class="relative text-default py-1 px-3 md:px-6 w-full md:flex md:justify-between max-w-7xl mx-auto">
     <div class="mr-auto rtl:mr-0 rtl:ml-auto flex justify-between">
       <a class="flex items-center" href={"/"}>
         <Logo />
