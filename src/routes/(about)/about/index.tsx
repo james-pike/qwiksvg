@@ -36,7 +36,7 @@ export default component$(() => {
                 is a production ready template to start your new website using <em>Qwik</em> + <em>Tailwind CSS</em>.
                 It has been designed following Best Practices, SEO, Accessibility, Dark Mode, Great Page Speed, image optimization, sitemap generation and more.
               </p> */}
-<div class="flex justify-center gap-4 pt-5">
+<div class="flex justify-center gap-4 pt-2">
                 <a
                   class="btn btn-primary"
                   href="https://github.com/onwidget/qwind"
