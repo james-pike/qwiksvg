@@ -53,7 +53,7 @@ export default component$(() => {
         </div>
       </div>
     </section>
-    <CallToAction/>
+    
     </div>
   );
 });
