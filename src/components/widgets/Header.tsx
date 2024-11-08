@@ -16,20 +16,20 @@ export default component$(() => {
 
   return (
     <header
-      id="header"
-      class={`sticky top-0 z-40 flex-none mx-auto w-full border-b border-gray-50/0 transition-[opacity] ease-in-out ${
-        store.isScrolling
-          ? " md:bg-white/90 md:backdrop-blur-sm dark:md:bg-slate-900/90 bg-white dark:bg-slate-900"
-          : ""
-      }`}
-      window:onScroll$={() => {
-        if (!store.isScrolling && window.scrollY >= 10) {
-          store.isScrolling = true;
-        } else if (store.isScrolling && window.scrollY < 10) {
-          store.isScrolling = false;
-        }
-      }}
-    >
+    id="header"
+    class={`sticky top-0 z-40 flex-none w-full border-b border-gray-50/0 transition-[opacity] ease-in-out ${
+      store.isScrolling
+        ? "md:bg-white/90 md:backdrop-blur-sm dark:md:bg-slate-900/90 bg-white dark:bg-slate-900"
+        : ""
+    } mx-2 p-2 rounded-lg shadow-md md:mx-auto md:p-0 md:rounded-none md:shadow-none`}
+    window:onScroll$={() => {
+      if (!store.isScrolling && window.scrollY >= 10) {
+        store.isScrolling = true;
+      } else if (store.isScrolling && window.scrollY < 10) {
+        store.isScrolling = false;
+      }
+    }}
+  >
       <div class="absolute inset-0"></div>
       
       <div class="relative text-default py-3 px-3 md:px-6 mx-auto w-full md:flex md:justify-between max-w-7xl">
