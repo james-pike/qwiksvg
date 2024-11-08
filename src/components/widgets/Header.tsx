@@ -1,10 +1,9 @@
 import { component$, useStore } from "@builder.io/qwik";
-import { useContent } from "@builder.io/qwik-city";
+
 
 import Logo from "~/components/common/Logo";
 import ToggleTheme from "~/components/common/ToggleTheme";
 import ToggleMenu from "~/components/common/ToggleMenu";
-import IconChevronDown from "../icons/IconChevronDown";
 import TogglePalette from "../common/TogglePalette";
 
 export default component$(() => {
@@ -12,7 +11,7 @@ export default component$(() => {
     isScrolling: false,
   });
 
-  const { menu } = useContent();
+ 
 
   return (
     <header
