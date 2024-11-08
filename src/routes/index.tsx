@@ -1,14 +1,18 @@
 import { component$ } from "@builder.io/qwik";
-import IconApps from "~/components/icons/IconApps";
-import IconBrandGoogle from "~/components/icons/IconBrandGoogle";
-import IconBrandTailwind from "~/components/icons/IconBrandTailwind";
-import IconBulb from "~/components/icons/IconBulb";
-import IconRocket from "~/components/icons/IconRocket";
+
 import CallToAction from "~/components/widgets/CallToAction";
 import FAQs from "~/components/widgets/FAQs";
 import Features from "~/components/widgets/Features";
 import Stats from "~/components/widgets/Stats";
 import Steps from "~/components/widgets/Steps";
+
+import { qwikSerialized } from "~/utils/qwikSerialized";
+
+const IconBrandTailwind = qwikSerialized(() => import("../components/icons/IconBrandTailwind"));
+const IconApps = qwikSerialized(() => import("../components/icons/IconApps"));
+const IconRocket = qwikSerialized(() => import("../components/icons/IconRocket"));
+const IconBrandGoogle = qwikSerialized(() => import("../components/icons/IconBrandGoogle"));
+const IconBulb = qwikSerialized(() => import("../components/icons/IconBulb"));
 
 export default component$(() => {
   return (
@@ -52,7 +56,7 @@ export default component$(() => {
                   target="_blank"
                   rel="noopener"
                 >
-                  Get Started
+                  Get A Free Consultation
                 </a>
                 <button class="btn bg-gray-50 dark:bg-transparent">Learn more</button>
               </div>
@@ -105,11 +109,8 @@ export default component$(() => {
         ]}
       />
 
-<Steps />
-
-
-
-<FAQs
+      <Steps  />
+      <FAQs
         title="Frequently Asked Questions"
         subtitle="Duis turpis dui, fringilla mattis sem nec, fringilla euismod neque. Morbi tincidunt lacus nec tortor scelerisque pulvinar."
         highlight="FAQs"
@@ -147,9 +148,8 @@ export default component$(() => {
         ]}
       />
 
-<Stats />
-<CallToAction />
+      <Stats />
+      <CallToAction />
     </div>
-    
   );
 });
