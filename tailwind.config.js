@@ -14,6 +14,9 @@ module.exports = {
       fontFamily: {
         sans: ["'Inter Variable'", ...defaultTheme.fontFamily.sans],
       },
+      spacing: {
+        '18': '4.5rem', // 18 * 0.25rem = 4.5rem
+      },
     },
   },
   plugins: [require("@tailwindcss/typography")],

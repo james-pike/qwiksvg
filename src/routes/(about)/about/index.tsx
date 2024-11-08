@@ -5,10 +5,10 @@ export default component$(() => {
   return (
     <div>
     <section class="relative md:-mt-[76px] not-prose">
-      <div class="-mt-16">
+      <div class="-mt-18">
        
 
-        <div class="relative w-full h-[53vh] overflow-hidden">
+        <div class="relative w-full h-[54vh] overflow-hidden">
           <dotlottie-player
             src="https://lottie.host/31d07d4e-e255-4bfe-b875-3c165b58d6b0/YKqfIcJWuT.json"
             background="transparent"
