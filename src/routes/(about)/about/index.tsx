@@ -5,7 +5,7 @@ export default component$(() => {
   return (
     <div>
     <section class="relative md:-mt-[76px] not-prose">
-      <div class="-mt-20">
+      <div class="-mt-16">
        
 
         <div class="relative w-full h-[53vh] overflow-hidden">
