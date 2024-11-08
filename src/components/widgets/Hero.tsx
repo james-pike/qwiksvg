@@ -4,7 +4,7 @@ import { component$ } from "@builder.io/qwik";
 export default component$(() => {
   return (
     <section class="relative md:-mt-[76px] not-prose">
-      <div class="-mt-20">
+      <div class="-mt-24">
        
 
         <div class="relative w-full h-[85vh] overflow-hidden">
