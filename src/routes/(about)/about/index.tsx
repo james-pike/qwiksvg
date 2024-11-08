@@ -8,7 +8,7 @@ export default component$(() => {
       <div class="-mt-20">
        
 
-        <div class="relative w-full h-[50vh] overflow-hidden">
+        <div class="relative w-full h-[55vh] overflow-hidden">
           <dotlottie-player
             src="https://lottie.host/31d07d4e-e255-4bfe-b875-3c165b58d6b0/YKqfIcJWuT.json"
             background="transparent"
@@ -36,7 +36,7 @@ export default component$(() => {
                 is a production ready template to start your new website using <em>Qwik</em> + <em>Tailwind CSS</em>.
                 It has been designed following Best Practices, SEO, Accessibility, Dark Mode, Great Page Speed, image optimization, sitemap generation and more.
               </p> */}
-<div class="flex justify-center gap-4 pt-2">
+<div class="flex justify-center gap-4 pt-1">
                 <a
                   class="btn btn-primary"
                   href="https://github.com/onwidget/qwind"
