@@ -1,12 +1,14 @@
 import { component$ } from "@builder.io/qwik";
+import CallToAction from "~/components/widgets/CallToAction";
 
 export default component$(() => {
   return (
+    <div>
     <section class="relative md:-mt-[76px] not-prose">
       <div class="-mt-20">
        
 
-        <div class="relative w-full h-[50vh] overflow-hidden">
+        <div class="relative w-full h-[40vh] overflow-hidden">
           <dotlottie-player
             src="https://lottie.host/31d07d4e-e255-4bfe-b875-3c165b58d6b0/YKqfIcJWuT.json"
             background="transparent"
@@ -40,5 +42,7 @@ export default component$(() => {
         </div>
       </div>
     </section>
+    <CallToAction/>
+    </div>
   );
 });
