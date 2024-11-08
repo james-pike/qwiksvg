@@ -10,9 +10,9 @@ export default component$(() => {
       <div class="-mt-20">
       <script src="https://unpkg.com/@dotlottie/player-component@2.7.12/dist/dotlottie-player.mjs" type="module"></script>
 
-      <div class="relative w-full h-[30vh] overflow-hidden">
+      <div class="relative w-full h-[85vh] overflow-hidden">
   <dotlottie-player
-    src="https://lottie.host/31d07d4e-e255-4bfe-b875-3c165b58d6b0/YKqfIcJWuT.json"
+    src="https://lottie.host/f401db68-5f9c-45f3-9740-822266addeff/9dTNPA28ub.json"
     background="transparent"
     speed="3"
     direction="1"
@@ -22,6 +22,8 @@ export default component$(() => {
     class="absolute top-0 left-1/2 transform -translate-x-1/2 w-[100vw] h-auto"
   ></dotlottie-player>
 </div>
+
+
 
       </div>
       {/* <script src="https://unpkg.com/@dotlottie/player-component@2.7.12/dist/dotlottie-player.mjs" type="module"></script><dotlottie-player src="https://lottie.host/f401db68-5f9c-45f3-9740-822266addeff/9dTNPA28ub.json" background="transparent" speed="1" style="width: 100%; height: 100%" direction="1" playMode="normal" loop autoplay></dotlottie-player> */}
