@@ -5,10 +5,10 @@ export default component$(() => {
   return (
     <div>
     <section class="relative md:-mt-[76px] not-prose">
-      <div class="-mt-52">
+      <div class="-mt-20">
        
 
-        <div class="relative w-full h-[60vh] overflow-hidden">
+        <div class="relative w-full h-[50vh] overflow-hidden">
           <dotlottie-player
             src="https://lottie.host/31d07d4e-e255-4bfe-b875-3c165b58d6b0/YKqfIcJWuT.json"
             background="transparent"
@@ -24,7 +24,9 @@ export default component$(() => {
           <div class="absolute inset-0 flex items-center justify-center text-center text-white px-4 sm:px-6">
             <div class="max-w-3xl mx-auto lg:max-w-none">
               <h1 class="text-5xl md:text-6xl font-bold leading-tighter tracking-tighter mb-4 font-heading dark:text-gray-200">
-                Free template for <br class="hidden lg:block" />{" "}
+                {/* Free template for <br class="hidden lg:block" />{" "} */}
+                <span class="hidden lg:inline">create a website using </span> <span class="text-[#039de1]">Qwik</span> +{" "}
+                <span class="sm:whitespace-nowrap text-[#039de1]">Tailwind</span>
                 <span class="hidden lg:inline">create a website using </span> <span class="text-[#039de1]">Qwik</span> +{" "}
                 <span class="sm:whitespace-nowrap text-[#039de1]">Tailwind</span>
               </h1>
