@@ -24,7 +24,7 @@ export default component$(() => {
           <div class="absolute inset-0 flex items-center justify-center text-center text-white px-4 sm:px-6">
             <div class="max-w-3xl mx-auto lg:max-w-none">
               <h1 class="text-5xl md:text-6xl font-bold leading-tighter tracking-tighter mb-4 font-heading dark:text-gray-200">
-                Free template for <br class="hidden lg:block" />{" "}
+                Get A Better Website <br class="hidden lg:block" />{" "}
                 <span class="hidden lg:inline">create a website using </span> <span class="text-[#039de1]">Qwik</span> &{" "}
                 <span class="sm:whitespace-nowrap text-[#039de1]">Tailwind</span>
                 
