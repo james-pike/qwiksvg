@@ -15,10 +15,10 @@ export default component$(() => {
         { title: "Security", href: "#" },
         { title: "Team", href: "#" },
         { title: "Enterprise", href: "#" },
-        { title: "Customer stories", href: "#" },
-        { title: "Pricing", href: "#" },
-        { title: "Resources", href: "#" },
-      ],
+      //   { title: "Customer stories", href: "#" },
+      //   { title: "Pricing", href: "#" },
+      //   { title: "Resources", href: "#" },
+       ],
     },
     {
       title: "Platform",
@@ -26,8 +26,8 @@ export default component$(() => {
         { title: "Developer API", href: "#" },
         { title: "Partners", href: "#" },
         { title: "Atom", href: "#" },
-        { title: "Electron", href: "#" },
-        { title: "Qwind Desktop", href: "#" },
+        // { title: "Electron", href: "#" },
+        // { title: "Qwind Desktop", href: "#" },
       ],
     },
     {
@@ -37,7 +37,7 @@ export default component$(() => {
         { title: "Community Forum", href: "#" },
         { title: "Professional Services", href: "#" },
         { title: "Skills", href: "#" },
-        { title: "Status", href: "#" },
+        // { title: "Status", href: "#" },
       ],
     },
     {
@@ -46,10 +46,10 @@ export default component$(() => {
         { title: "About", href: "#" },
         { title: "Blog", href: "#" },
         { title: "Careers", href: "#" },
-        { title: "Press", href: "#" },
-        { title: "Inclusion", href: "#" },
-        { title: "Social Impact", href: "#" },
-        { title: "Shop", href: "#" },
+        // { title: "Press", href: "#" },
+        // { title: "Inclusion", href: "#" },
+        // { title: "Social Impact", href: "#" },
+        // { title: "Shop", href: "#" },
       ],
     },
   ];
@@ -72,7 +72,7 @@ export default component$(() => {
           <div class="col-span-12 lg:col-span-4 pr-8">
             <div class="mb-2">
               <Link class="inline-block font-bold text-xl" href={"/"}>
-                Qwind
+                Webdev.ca
               </Link>
             </div>
             <div class="text-sm text-gray-600 dark:text-gray-400">
