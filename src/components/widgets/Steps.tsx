@@ -7,36 +7,39 @@ const sideImg =
 
 export default component$(() => {
   const stepsData = {
-    title: "Sed ac magna sit amet risus tristique interdum. hac.",
+    title: "Our Process for Building Tailored, High-Performance Websites",
     items: [
       {
-        title: "Step 1",
+        title: "Discovery & Planning",
         description:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis, quam nec venenatis lobortis, mirisus tempus nulla, sed porttitor est nibh at nulla. Praesent placerat enim ut ex tincidunt vehicula. Fusce sit amet dui tellus.",
+          "We start by understanding your unique goals and audience. Our team conducts thorough research to design a strategy that aligns with your brand and drives results.",
         icon: IconStar,
       },
       {
-        title: "Step 2",
+        title: "Custom Design & Prototyping",
         description:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis, quam nec venenatis lobortis, mirisus tempus nulla, sed porttitor est nibh at nulla.",
+          "From wireframes to polished prototypes, we craft a design that not only looks stunning but is also optimized for usability and performance on all devices.",
         icon: IconStar,
       },
       {
-        title: "Step 3",
+        title: "Development & Integration",
         description:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis, quam nec venenatis lobortis, mirisus tempus nulla, sed porttitor est nibh at nulla.",
+          "Our developers bring the design to life, building a secure, fast-loading, custom-coded solution tailored to your needs, with seamless integrations where required.",
         icon: IconStar,
       },
       {
-        title: "Ready!",
+        title: "Launch & Ongoing Optimization",
+        description:
+          "After rigorous testing, your site goes live! We continue to monitor and fine-tune to ensure optimal performance, keeping your website secure and up-to-date.",
         icon: IconStar,
       },
     ],
     image: {
       src: sideImg,
-      alt: "Steps image",
+      alt: "Custom website development process",
     },
   };
+  
   const { title, items, image } = stepsData;
 
   return (
