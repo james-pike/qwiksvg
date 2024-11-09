@@ -21,7 +21,7 @@ export default component$(() => {
       <div class="-mt-18">
        
 
-        <div class="relative w-full h-[52vh] sm:h-[90vh] overflow-hidden">
+        <div class="relative w-full h-[53vh] sm:h-[90vh] overflow-hidden">
           <dotlottie-player
             src="https://lottie.host/31d07d4e-e255-4bfe-b875-3c165b58d6b0/YKqfIcJWuT.json"
             background="transparent"
