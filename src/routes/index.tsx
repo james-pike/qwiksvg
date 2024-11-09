@@ -21,7 +21,7 @@ export default component$(() => {
       <div class="-mt-18">
        
 
-        <div class="relative w-full h-[54vh] overflow-hidden">
+        <div class="relative w-full h-[52vh] overflow-hidden">
           <dotlottie-player
             src="https://lottie.host/31d07d4e-e255-4bfe-b875-3c165b58d6b0/YKqfIcJWuT.json"
             background="transparent"
@@ -49,14 +49,14 @@ export default component$(() => {
                 is a production ready template to start your new website using <em>Qwik</em> + <em>Tailwind CSS</em>.
                 It has been designed following Best Practices, SEO, Accessibility, Dark Mode, Great Page Speed, image optimization, sitemap generation and more.
               </p> */}
-<div class="flex justify-center gap-4 pt-0">
+<div class="flex justify-center gap-4 pt-2">
                 <a
                   class="btn btn-primary"
                   href="https://github.com/onwidget/qwind"
                   target="_blank"
                   rel="noopener"
                 >
-                  Get A Free Consultation
+                  Get Started
                 </a>
                 <button class="btn bg-gray-50 dark:bg-transparent">Learn more</button>
               </div>
@@ -67,86 +67,89 @@ export default component$(() => {
       </div>
     </section>
     <Features
-        highlight="Features"
-        title="What you get with Qwind"
-        subtitle="Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque rem aperiam, eaque ipsa quae."
-        items={[
-          {
-            title: "Qwik + Tailwind CSS Integration",
-            description:
-              "A seamless integration between two great frameworks that offer high productivity, performance and versatility.",
-            icon: IconBrandTailwind,
-          },
-          {
-            title: "Ready-to-use Components",
-            description:
-              "Widgets made with Tailwind CSS ready to be used in Marketing Websites, SaaS, Blogs, Personal Profiles, Small Business...",
-            icon: IconApps,
-          },
-          {
-            title: "Best Practices",
-            description:
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis, quam nec venenatis lobortis, mi risus tempus nulla.",
-          },
-          {
-            title: "Excellent Page Speed",
-            description:
-              "Having a good page speed impacts organic search ranking, improves user experience (UI/UX) and increase conversion rates.",
-            icon: IconRocket,
-          },
-          {
-            title: "Search Engine Optimization (SEO)",
-            description:
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis, quam nec venenatis lobortis, mi risus tempus nulla.",
-            icon: IconBrandGoogle,
-          },
-          {
-            title: "Open to new ideas and contributions",
-            description:
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis, quam nec venenatis lobortis, mi risus tempus nulla.",
-            icon: IconBulb
-          },
-        ]}
-      />
+  highlight="Features"
+  title="What You Get with Our Custom-Coded Solutions"
+  subtitle="Unlock the full potential of your online presence with tailored, high-performance websites designed to meet your exact needs."
+  items={[
+    {
+      title: "High-Performance, Hand-Coded Designs",
+      description:
+        "Every website we build is custom-coded to achieve top performance and optimal functionality, making your site stand out from the competition.",
+      icon: IconRocket,
+    },
+    {
+      title: "Tailored UI/UX Components",
+      description:
+        "Custom-built components specifically designed to enhance user engagement and create seamless interactions on any device.",
+      icon: IconApps,
+    },
+    {
+      title: "Cutting-Edge Best Practices",
+      description:
+        "We utilize the latest web development techniques to ensure your site remains secure, efficient, and adaptable to future changes.",
+      icon: IconBrandTailwind,
+    },
+    {
+      title: "Lightning-Fast Loading Speeds",
+      description:
+        "Page speed is key to maximizing conversions and boosting SEO. Our custom builds are optimized for rapid load times on all devices.",
+      icon: IconRocket,
+    },
+    {
+      title: "SEO-Optimized for Visibility",
+      description:
+        "Our sites are structured to enhance search engine visibility, helping you rank higher and attract more of the right audience.",
+      icon: IconBrandGoogle,
+    },
+    {
+      title: "Collaborative Approach",
+      description:
+        "We welcome and integrate your ideas, ensuring that the final product is a true reflection of your vision and business goals.",
+      icon: IconBulb,
+    },
+  ]}
+/>
 
-      <Steps  />
-      <FAQs
-        title="Frequently Asked Questions"
-        subtitle="Duis turpis dui, fringilla mattis sem nec, fringilla euismod neque. Morbi tincidunt lacus nec tortor scelerisque pulvinar."
-        highlight="FAQs"
-        items={[
-          {
-            title: "What do I need to start?",
-            description:
-              "Space, the final frontier. These are the voyages of the Starship Enterprise. Its five-year mission: to explore strange new worlds. Many say exploration is part of our destiny, but it’s actually our duty to future generations.",
-          },
-          {
-            title: "How to install the Qwik + Tailwind CSS template?",
-            description:
-              "Well, the way they make shows is, they make one show. That show's called a pilot. Then they show that show to the people who make shows, and on the strength of that one show they decide if they're going to make more shows.",
-          },
-          {
-            title: "What's something that you don't understand?",
-            description:
-              "A flower in my garden, a mystery in my panties. Heart attack never stopped old Big Bear. I didn't even know we were calling him Big Bear.",
-          },
-          {
-            title: "What's an example of when you changed your mind?",
-            description:
-              "Michael Knight a young loner on a crusade to champion the cause of the innocent. The helpless. The powerless in a world of criminals who operate above the law. Here he comes Here comes Speed Racer. He's a demon on wheels.",
-          },
-          {
-            title: "What is something that you would like to try again?",
-            description:
-              "A business big enough that it could be listed on the NASDAQ goes belly up. Disappears! It ceases to exist without me. No, you clearly don't know who you're talking to, so let me clue you in.",
-          },
-          {
-            title: "If you could only ask one question to each person you meet, what would that question be?",
-            description:
-              "This is not about revenge. This is about justice. A lot of things can change in twelve years, Admiral. Well, that's certainly good to know. About four years. I got tired of hearing how young I looked.",
-          },
-        ]}
-      />
+
+   
+<FAQs
+  title="Frequently Asked Questions"
+  subtitle="Find answers to common questions about our premium web design and custom development services."
+  highlight="FAQs"
+  items={[
+    {
+      title: "What do I need to get started?",
+      description:
+        "All we need is an idea of what you're aiming to achieve. Whether you have a clear vision or need guidance, our team will work with you to bring your project to life.",
+    },
+    {
+      title: "What makes custom-coded solutions better?",
+      description:
+        "Custom coding allows us to tailor every element to your brand's needs, providing unparalleled flexibility, performance, and a unique design that can’t be replicated by template-based sites.",
+    },
+    {
+      title: "How does the design process work?",
+      description:
+        "We start with an in-depth consultation to understand your vision, followed by wireframes and design mockups. Once approved, we move to development, keeping you updated every step of the way.",
+    },
+    {
+      title: "Will my website be optimized for SEO?",
+      description:
+        "Absolutely. From structure to page speed, we implement SEO best practices so that your site can gain visibility in search engine results.",
+    },
+    {
+      title: "Can I make updates to my site after it’s built?",
+      description:
+        "Yes! We build with scalability in mind, allowing for easy updates and enhancements as your business grows.",
+    },
+    {
+      title: "How do you ensure my site’s security?",
+      description:
+        "Security is a top priority. We implement the latest security protocols and regular updates to keep your site protected against threats.",
+    },
+  ]}
+/>
+
 
       <Stats />
       <CallToAction />
