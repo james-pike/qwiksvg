@@ -66,7 +66,7 @@ export default component$(() => {
         </div>
       </div>
     </section>
-    <svg class="-mt-16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" fill="#2B5EFF"><path d="M0 0v100l500-48 500 48V0H0z" opacity=".5"></path><path d="M0 0h1000v52H0z" opacity=".5"></path><path d="M0 0v4l500 48 500-48V0H0z" opacity=".5"></path><path d="M0 0v4l500 48 500-48V0H0z"></path></svg>    <Features
+    <svg class="-mt-10" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" fill="#2B5EFF"><path d="M0 0v100l500-48 500 48V0H0z" opacity=".5"></path><path d="M0 0h1000v52H0z" opacity=".5"></path><path d="M0 0v4l500 48 500-48V0H0z" opacity=".5"></path><path d="M0 0v4l500 48 500-48V0H0z"></path></svg>    <Features
   highlight="Features"
   title="What You Get with Our Custom-Coded Solutions"
   subtitle="Unlock the full potential of your online presence with tailored, high-performance websites designed to meet your exact needs."
