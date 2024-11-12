@@ -18,12 +18,12 @@ export default component$(() => {
   return (
     <div>
     <section class="relative md:-mt-[76px] not-prose">
-      <div class="-mt-24">
+      <div class="-mt-20">
        
 
-        <div class="relative w-full h-full sm:h-[90vh] overflow-hidden">
-        <script src="https://unpkg.com/@dotlottie/player-component@2.7.12/dist/dotlottie-player.mjs" type="module"></script><dotlottie-player src="https://lottie.host/a746769e-b3c0-49f1-8db7-2e32d6cf2aee/B87BeustR2.json" background="transparent" speed="1" style="width: 100%; height: 100%" direction="1" playMode="normal" loop autoplay></dotlottie-player>
-          {/* <dotlottie-player
+        <div class="relative w-full h-[55vh] sm:h-[90vh] overflow-hidden">
+        <script src="https://unpkg.com/@dotlottie/player-component@2.7.12/dist/dotlottie-player.mjs" type="module"></script><dotlottie-player src="https://lottie.host/a746769e-b3c0-49f1-8db7-2e32d6cf2aee/B87BeustR2.json" background="transparent" speed="1" style="width: 100%; height: 100%" direction="1" playMode="normal" loop controls autoplay></dotlottie-player>
+          <dotlottie-player
             src="https://lottie.host/31d07d4e-e255-4bfe-b875-3c165b58d6b0/YKqfIcJWuT.json"
             background="transparent"
             speed="3"
@@ -32,7 +32,7 @@ export default component$(() => {
             loop
             autoplay
             class="absolute top-0 left-1/2 transform -translate-x-1/2 w-[100vw] h-auto"
-          ></dotlottie-player> */}
+          ></dotlottie-player>
 
           {/* Hero Text Container */}
           <div class="absolute inset-0 flex items-center justify-center text-center text-white px-4 sm:px-6">
