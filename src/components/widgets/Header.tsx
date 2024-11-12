@@ -18,8 +18,8 @@ export default component$(() => {
     id="header"
     class={`sticky top-0 z-40 flex-none border-b border-gray-50/0 transition-all ease-in-out duration-300 ${
       store.isScrolling
-        ? "w-full md:bg-white/90 p-2 md:backdrop-blur-sm dark:md:bg-slate-900/90 bg-white dark:bg-slate-900 md:mx-0 md:rounded-none md:shadow-none"
-        : "w-[93%] mx-0 py-2 rounded-lg shadow-md mt-4"
+        ? "w-full md:bg-white/90 py-1 md:backdrop-blur-sm dark:md:bg-slate-900/90 bg-white dark:bg-slate-900 md:mx-0 md:rounded-none md:shadow-none"
+        : "w-[93%] mx-aut0 py-2 rounded-lg shadow-md mt-4"
     }`}
     window:onScroll$={() => {
       if (!store.isScrolling && window.scrollY >= 10) {
