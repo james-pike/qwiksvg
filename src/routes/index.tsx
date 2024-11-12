@@ -22,7 +22,7 @@ export default component$(() => {
        
 
         <div class="relative w-full h-[55vh] sm:h-[90vh] overflow-hidden">
-        <script src="https://unpkg.com/@dotlottie/player-component@2.7.12/dist/dotlottie-player.mjs" type="module"></script><dotlottie-player src="https://lottie.host/a746769e-b3c0-49f1-8db7-2e32d6cf2aee/B87BeustR2.json" background="transparent" speed="1" style="width: 100%; height: 100%" direction="1" playMode="normal" loop autoplay></dotlottie-player>
+        {/* <script src="https://unpkg.com/@dotlottie/player-component@2.7.12/dist/dotlottie-player.mjs" type="module"></script><dotlottie-player src="https://lottie.host/a746769e-b3c0-49f1-8db7-2e32d6cf2aee/B87BeustR2.json" background="transparent" speed="1" style="width: 100%; height: 100%" direction="1" playMode="normal" loop autoplay></dotlottie-player> */}
           <dotlottie-player
             src="https://lottie.host/31d07d4e-e255-4bfe-b875-3c165b58d6b0/YKqfIcJWuT.json"
             background="transparent"
@@ -43,13 +43,13 @@ export default component$(() => {
                 <span class="sm:whitespace-nowrap text-[#039de1]">Tailwind</span> */}
                 
               </h1>
-              {/* <p class="text-xl text-muted mb-6 dark:text-slate-300">
+              <p class="text-xl text-muted mb-6 dark:text-slate-300">
                 <span class="font-semibold underline decoration-wavy decoration-1 decoration-secondary-600 underline-offset-2">
                   Qwind
                 </span>{" "}
                 is a production ready template to start your new website using <em>Qwik</em> + <em>Tailwind CSS</em>.
                 It has been designed following Best Practices, SEO, Accessibility, Dark Mode, Great Page Speed, image optimization, sitemap generation and more.
-              </p> */}
+              </p>
 <div class="flex justify-center gap-4 pt-1">
                 <a
                   class="btn btn-primary"
