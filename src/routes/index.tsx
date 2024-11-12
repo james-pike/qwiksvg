@@ -43,13 +43,13 @@ export default component$(() => {
                 <span class="sm:whitespace-nowrap text-[#039de1]">Tailwind</span> */}
                 
               </h1>
-              <p class="text-xl text-muted mb-6 dark:text-slate-300">
+              {/* <p class="text-xl text-muted mb-6 dark:text-slate-300">
                 <span class="font-semibold underline decoration-wavy decoration-1 decoration-secondary-600 underline-offset-2">
                   Qwind
                 </span>{" "}
                 is a production ready template to start your new website using <em>Qwik</em> + <em>Tailwind CSS</em>.
                 It has been designed following Best Practices, SEO, Accessibility, Dark Mode, Great Page Speed, image optimization, sitemap generation and more.
-              </p>
+              </p> */}
 <div class="flex justify-center gap-4 pt-1">
                 <a
                   class="btn btn-primary"
